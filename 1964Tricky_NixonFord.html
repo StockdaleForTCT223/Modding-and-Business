@@ -121,7 +121,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17028,
         "fields": {
             "priority": 0,
-            "description": "We're definitely not debating right?",
+            "description": "Last election's presidential debates were a massive hit with the public-but Johnson seems to have no interest in repeating the spectacle, arguing they're a security risk. Do you want to needle him on this point?",
             "likelihood": 1
         }
     },
@@ -130,7 +130,16 @@ campaignTrail_temp.questions_json = [
         "pk": 17029,
         "fields": {
             "priority": 0,
-            "description": "Do you agree with the Great Society?",
+            "description": "Johnson's main domestic priority has been <q>The Great Society,</q> a sweeping package of major domestic reforms meant to end the scourges of poverty, illiteracy, and bigotry in this nation forever. Reporters want to know your thoughts on the Great Society, and whether you would maintain Johnson's programs.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 17138,
+        "fields": {
+            "priority": 0,
+            "description": "Eisenhower is thankful that you took up the task of campaigning against Goldwater, and is hoping to cut an ad with you sometime soon to help you out. Will you take him up on his offer?",
             "likelihood": 1
         }
     },
@@ -163,15 +172,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 17033,
-        "fields": {
-            "priority": 0,
-            "description": "Campaigning with Goldwater and/or Rockefeller.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 17034,
         "fields": {
             "priority": 0,
@@ -184,7 +184,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17070,
         "fields": {
             "priority": 0,
-            "description": "Organizational efforts, how to figure out how to recover from this major scandal",
+            "description": "Organizational efforts, how to figure out how to recover from this major scandal. Would Goldwater or Rockefeller help out?",
             "likelihood": 1
         }
     },
@@ -283,16 +283,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17080,
         "fields": {
             "priority": 0,
-            "description": "Pat Nixon Other Q, Easier Relations with Her",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 17138,
-        "fields": {
-            "priority": 0,
-            "description": "Eisenhower is thankful that you took up the task of campaigning against Goldwater, and is hoping to cut an ad with you sometime soon to help you out. Will you take him up on his offer?",
+            "description": "Easier Pat path, she just doesn't want to leave New York City. Only if you're not fired.",
             "likelihood": 1
         }
     }
@@ -1257,6 +1248,54 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17027,
             "description": "I know Khrushchev very well. I know how he ticks, how he acts, how he thinks. Of all the candidates in this race, I am the best positioned to deal with him, and to keep nuclear armageddon away."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17140,
+        "fields": {
+            "question": 17026,
+            "description": "This is our single greatest wedge issue-of course we have to use it! Lyndon B. Johnson continuously enabled the political career of a wholesale swindler, Bobby Baker, who used the Senate to pad his pockets. We need to talk about that phonograph Baker gave Johnson as much as possible-these shady connections are just too important to pass up."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17142,
+        "fields": {
+            "question": 17026,
+            "description": "I think I need to stay above the fray, but Ford should talk about it. He should emphasize that the House GOP has no interest in tolerating any sort of corruption, and that this sort of crime could only be fostered in the clubhouses of Democratic insiders."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17152,
+        "fields": {
+            "question": 17028,
+            "description": "No debates. Period."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17154,
+        "fields": {
+            "question": 17028,
+            "description": "Well we don't want a debate, and Johnson would never allow one, but it'd be nice if we hit him on it. The President should talk to his competitors, and put his ideas on public trial. It's not fair to the American people to hide in the Oval Office."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17158,
+        "fields": {
+            "question": 17028,
+            "description": "Well last time went bad, but we have a reasonably amenable package for a real, honest debate. Separate rooms with their own lighting, in a two hour format, so nobody is at a visual disadvantage. Then we can really talk about the issues."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17161,
+        "fields": {
+            "question": 17029,
+            "description": "put description here"
         }
     }
 ]
@@ -7668,6 +7707,66 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": 0.019
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17143,
+        "fields": {
+            "answer": 17140,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": -0.019
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17144,
+        "fields": {
+            "answer": 17140,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17148,
+        "fields": {
+            "answer": 17142,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.0015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17150,
+        "fields": {
+            "answer": 17142,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": -0.0012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17156,
+        "fields": {
+            "answer": 17154,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.0009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17160,
+        "fields": {
+            "answer": 17158,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.016
+        }
     }
 ]
 
@@ -8657,7 +8756,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17093,
         "fields": {
             "answer": 17025,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.2,
             "issue_importance": 2
         }
@@ -8677,7 +8776,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17096,
         "fields": {
             "answer": 17023,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.5,
             "issue_importance": 5
         }
@@ -8697,7 +8796,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17106,
         "fields": {
             "answer": 17024,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.15,
             "issue_importance": 1
         }
@@ -8727,7 +8826,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17111,
         "fields": {
             "answer": 17107,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.3,
             "issue_importance": 0.75
         }
@@ -8737,7 +8836,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17119,
         "fields": {
             "answer": 17113,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.5,
             "issue_importance": 12
         }
@@ -8747,7 +8846,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17124,
         "fields": {
             "answer": 17114,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.4,
             "issue_importance": 10
         }
@@ -8767,7 +8866,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17128,
         "fields": {
             "answer": 17115,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.7,
             "issue_importance": 12
         }
@@ -8777,9 +8876,59 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17132,
         "fields": {
             "answer": 17116,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.7,
             "issue_importance": 12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17145,
+        "fields": {
+            "answer": 17140,
+            "issue": 35,
+            "issue_score": -0.4,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17146,
+        "fields": {
+            "answer": 17140,
+            "issue": 36,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17149,
+        "fields": {
+            "answer": 17142,
+            "issue": 35,
+            "issue_score": -0.6,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17151,
+        "fields": {
+            "answer": 17142,
+            "issue": 36,
+            "issue_score": -0.6,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17157,
+        "fields": {
+            "answer": 17154,
+            "issue": 36,
+            "issue_score": -0.1,
+            "issue_importance": 0.25
         }
     }
 ]
@@ -11043,6 +11192,60 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17136,
             "candidate": 92,
             "answer_feedback": "Americans seem to love your ads discussing your experience with Khrushchev-it seems to be the closest you can get to looking like a commander in chief. The effect is somewhat diminished when Johnson invites Khrushchev to go to Disneyworld with him."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17141,
+        "fields": {
+            "answer": 17140,
+            "candidate": 92,
+            "answer_feedback": "Johnson has no cute dog to wave away these allegations-he manhandled his too roughly. The Baker case becomes a favorite line of yours, and every Republican speaks about it nonstop. With Johnson's strong position, it might be your best weapon against him."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17147,
+        "fields": {
+            "answer": 17142,
+            "candidate": 92,
+            "answer_feedback": "Ford takes on the role with relish, regaling crowds with example after example of Baker's misdeeds in the Senate. A Republican House would immediately launch an investigation into this, and institute reforms to ensure it never happens again. It seems like Lyndon is sweating now."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17153,
+        "fields": {
+            "answer": 17152,
+            "candidate": 92,
+            "answer_feedback": "Maybe it's better to avoid another total disaster."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17155,
+        "fields": {
+            "answer": 17154,
+            "candidate": 92,
+            "answer_feedback": "This might be true, but with Johnson's constant invocation of last November's tragedy, nobody cares all too much. Very little attention is paid to your pleas, except for a throwaway line where Humphrey asks if you'd want the President to debate Wallace."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17159,
+        "fields": {
+            "answer": 17158,
+            "candidate": 92,
+            "answer_feedback": "Johnson leaks your request to the public, and the press savages it as both unrealistic and pathetic. A bathroom mirror in a Tulsa hotel takes the brunt of your frustrations."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17162,
+        "fields": {
+            "answer": 17161,
+            "candidate": 92,
+            "answer_feedback": "put feedback here, don't forget to change candidate"
         }
     }
 ]
