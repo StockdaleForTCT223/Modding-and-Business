@@ -112,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17027,
         "fields": {
             "priority": 0,
-            "description": "Relations with the Soviets, how should we proceed?",
+            "description": "John F. Kennedy's signature achievement was his handling of the Cuban Missile Crisis. Americans want to know what your vision of Soviet-American relations are, and how you would handle the Russian government.",
             "likelihood": 1
         }
     },
@@ -284,6 +284,15 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "Pat Nixon Other Q, Easier Relations with Her",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 17138,
+        "fields": {
+            "priority": 0,
+            "description": "Eisenhower is thankful that you took up the task of campaigning against Goldwater, and is hoping to cut an ad with you sometime soon to help you out. Will you take him up on his offer?",
             "likelihood": 1
         }
     }
@@ -1232,6 +1241,22 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17022,
             "description": "When me and the President designed the act of 1957, we ensured it would equally benefit every American, and would not put private decisions in the hands of the government. I was disappointed to learn that the President abandoned this philosophy-this act is not how we will ensure this country is a just one."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17135,
+        "fields": {
+            "question": 17027,
+            "description": "We cannot afford to be complacent. Khrushchev still holds a puppet government in that cancer in Cuba, and the people of Berlin still yearn for freedom. We must not amuse ourselves with illusions that the USSR can be reasoned with, as Johnson has."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17136,
+        "fields": {
+            "question": 17027,
+            "description": "I know Khrushchev very well. I know how he ticks, how he acts, how he thinks. Of all the candidates in this race, I am the best positioned to deal with him, and to keep nuclear armageddon away."
         }
     }
 ]
@@ -11000,6 +11025,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17116,
             "candidate": 92,
             "answer_feedback": "The Republican Center is disgusted with your borrowing of Barry Goldwater's logic, and even your running mate is somewhat deflated when campaigning. This is an excellent way of capturing the white backlash demographic, however, and dispels any fears of Wallace spoiling your candidacy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17137,
+        "fields": {
+            "answer": 17135,
+            "candidate": 92,
+            "answer_feedback": "A staunch Goldwaterite line, and one that pleases his wing. Many Americans, however, fear the blowback that could come from future interference in Cuban affairs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17139,
+        "fields": {
+            "answer": 17136,
+            "candidate": 92,
+            "answer_feedback": "Americans seem to love your ads discussing your experience with Khrushchev-it seems to be the closest you can get to looking like a commander in chief. The effect is somewhat diminished when Johnson invites Khrushchev to go to Disneyworld with him."
         }
     }
 ]
