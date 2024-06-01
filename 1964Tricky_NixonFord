@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1012,
         "fields": {
             "priority": 0,
-            "description": "Since 1955, the communist-backed Democratic Republic of Vietnam and the American-backed Republic of Vietnam have been at war. The war has played a small role in the public consciousness but it's something you believe could be turned into a wedge issue. How do you wish to address it?",
+            "description": "The Cow Palace in San Francisco is sticky, sweaty, and red hot. You have clinched the nomination, but Goldwater's men are still frustrated, furious with your theft of what was supposed to be the conservatives' coronation. Cabot is kind enough to read your name into nomination, and you get ready to accept it. What will you say?",
             "likelihood": 1
         }
     },
@@ -40,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1013,
         "fields": {
             "priority": 0,
-            "description": "The Vietnam situation has become more worrisome as Lyndon Johnson, in response to an engagement between North Vietnamese and American forces, signed a law authorizing any force necessary to secure peace in Southeast Asia. As America remains under its first peacetime draft, many younger men fear conscription. What are your thoughts on the draft?",
+            "description": "You have proudly introduced to the convention your running mate, Michigan Representative, and rock-ribbed reliable Republican, Gerald Ford. How come you selected Representative Ford as your partner on the ticket?",
             "likelihood": 1
         }
     },
@@ -49,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1024,
         "fields": {
             "priority": 0,
-            "description": "Lyndon Johnson released a horrifying ad today. It depicts a young girl picking a daisy, interrupted by a loud voice and the explosion of a nuclear bomb, evoking accusations that you would use nuclear weapons in Southeast Asia. The ad was pulled after one airing, but many feel the damage has been done. Do you plan on addressing this ad publicly?",
+            "description": "The campaign begins in earnest, but it appears another contender has thrown his hat into the ring. Governor Wallace of Alabama is running a national campaign of white resistance to Johnson's civil rights laws. He is sucking up conservatives left and right. How can we address him?",
             "likelihood": 1
         }
     },
@@ -67,7 +67,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1030,
         "fields": {
             "priority": 0,
-            "description": "Today, Nikita Khrushchev, First Secretary of the USSR, was removed from office and replaced by Leonid Brezhnev. This has become a predicament for your campaign as Khrushchev frequently appeared in your television ads and was invoked in your speeches. Do you want to talk about Khruschev's ousting publicly?",
+            "description": "A reporter ambushes you and asks you for your opinion on <i>Engel v. Vitale</i>, the Supreme Court case which outlawed prayer in schools. Where do you stand on this miscarriage of justice?",
             "likelihood": 1
         }
     },
@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1034,
         "fields": {
             "priority": 0,
-            "description": "As the campaign season finally draws to a close, which region of the country would you like to put final efforts into winning?",
+            "description": "Many of our consultants are frightened of your so-called <q>personality problem.</q> While your wife loves you dearly, many Americans just find you hard to trust. How can we change that image?",
             "likelihood": 1
         }
     }
@@ -352,7 +352,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2034,
         "fields": {
             "question": 1012,
-            "description": "Make no bones of this, we are at war in Vietnam. With the support of the NATO community, a Goldwater presidency will win in Vietnam by any means necessary."
+            "description": "In a time of great uncertainty, when Khruschev is knocking on the door of Europe, and Castro is awakening hordes of sleeper cells in South America, and Mao is ripping down Indochina, we have a president more concerned with making friends instead of liberating oppressed peoples. This cannot last."
         }
     },
     {
@@ -360,7 +360,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2035,
         "fields": {
             "question": 1012,
-            "description": "The President refuses to say whether or not the goal over there is victory, I would support initiating a mass bombing campaign of North Vietnam. The North Vietnamese are relying on Chinese supplies and our nation is doing nothing to stop them."
+            "description": "The Republican Party has always stood behind key principles. We are the party that can balance a checkbook. We are the party that listens to the average American. We are the party that keeps stability abroad. We are the party Americans turn to when they no longer feel safe, because we are the party Americans know is responsible. We must now rise to the challenge of removing a very irresponsible man from the Oval Office."
         }
     },
     {
@@ -368,7 +368,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2036,
         "fields": {
             "question": 1012,
-            "description": "Under recent Democratic administrations, our foreign policy has done nothing but embarrassed us in the eyes of the international community. I call for an end of these drawn-out conflicts and support a swift, victorious end in Vietnam."
+            "description": "fuckfart"
         }
     },
     {
@@ -376,7 +376,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2037,
         "fields": {
             "question": 1013,
-            "description": "I call for an end to the draft immediately. It is a violation of individual rights that people can be compelled to serve against their will."
+            "description": "Governor Wallace is a brute and a demagogue, and his conduct has made him wholly undeserving of national office. I'd urge voters to reject him."
         }
     },
     {
@@ -680,7 +680,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2075,
         "fields": {
             "question": 1024,
-            "description": "Of course I do, we've struck gold! I will loudly denounce the grossness and inappropriateness of this advertisement."
+            "description": "Governor Wallace is a brute and a demagogue, and his conduct has made him wholly undeserving of national office. I'd urge voters to reject him."
         }
     },
     {
@@ -688,7 +688,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2076,
         "fields": {
             "question": 1024,
-            "description": "Now, now, Johnson pulled it after one airing. I doubt it'll make much of a splash, and we'd be better off staying silent."
+            "description": "Why would I talk about that rodent? Don't send the press any statement of mine. They'll just twist it somehow and call me Hitler. "
         }
     },
     {
@@ -696,7 +696,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2077,
         "fields": {
             "question": 1024,
-            "description": "I don't want to get my hands dirty. Our running mate, however, should certainly attack this disgusting ad."
+            "description": "Governor Wallace has no interest in furthering the conservative cause-he only cares about his own ego. I may be a progressive conservative, but I am very much a conservative!"
         }
     },
     {
@@ -704,7 +704,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2078,
         "fields": {
             "question": 1024,
-            "description": "Shoot back with our own wild ad campaign. I don't give a damn if we need to kill it after one airing too, just find the dirtiest thing we can on Lyndon."
+            "description": "Governor Wallace follows only one creed, and that is the creed of bigotry! Our political system should not coddle the cowardly and the racist."
         }
     },
     {
@@ -816,7 +816,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2092,
         "fields": {
             "question": 1030,
-            "description": "Let's not forget that Johnson was praising Khrushchev as recently as this month. The present administration was doing everything it could to help Khrushchev and now is surprised he was deposed. It's shameful."
+            "description": "I have to agree with the Supreme Court-there are many Jews, Catholics, and other religions in this nation who should not feel compelled to pray a certain way in a place of learning."
         }
     },
     {
@@ -824,7 +824,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2093,
         "fields": {
             "question": 1030,
-            "description": "Brezhnev is no different than Khrushchev. I will remind the American people that Brezhnev will bury us too!"
+            "description": "There is nothing more critical to the development of the American mind than religious instruction, and a belief in a higher power. I would support an amendment to ensure school prayer is always constitutional, and I would call on President Johnson to support one too."
         }
     },
     {
@@ -832,7 +832,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2094,
         "fields": {
             "question": 1030,
-            "description": "Brezhnev's cozying up to Red China has seriously worried me. A Goldwater administration will do what it can to fight this evil even more than with Khrushchev."
+            "description": "The fact that a clique of unelected justices have the power to make a decision this sweeping is an indictment of our entire political system. I think men like Justice Douglas should be ashamed of how they have stolen something held so dearly by many Americans from this nation's people."
         }
     },
     {
@@ -912,7 +912,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2104,
         "fields": {
             "question": 1034,
-            "description": "The South. Its states may give us the only shot we have for a solid electoral performance."
+            "description": "My opponent is a drunken boor who picks up dogs by their ears and walks them around. The American people know <i>I'd</i> never treat a dog that way."
         }
     },
     {
@@ -945,6 +945,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1001,
             "description": "This isn't a campaign about one man or one person. It's about who can stop President Johnson's incessant crusade on moral values and on the consciences of the American people. These men should know that a Nixon administration would return prayer to schools, and would get a cheating drunkard out of the White House."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17017,
+        "fields": {
+            "question": 1030,
+            "description": "Regardless of your feelings, a judicial decision is not how we should make this choice. I would support an amendment clarifying our Constitution's stance here."
         }
     }
 ]
@@ -4560,7 +4568,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 236,
-            "state_multiplier": 1
+            "state_multiplier": 1.05
         }
     },
     {
@@ -6973,8 +6981,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 2092,
             "candidate": 92,
-            "affected_candidate": 91,
-            "global_multiplier": 0.016
+            "affected_candidate": 92,
+            "global_multiplier": -0.016
         }
     },
     {
@@ -6983,8 +6991,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 2093,
             "candidate": 92,
-            "affected_candidate": 91,
-            "global_multiplier": 0.019
+            "affected_candidate": 92,
+            "global_multiplier": 0.006
         }
     },
     {
@@ -6993,8 +7001,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 2094,
             "candidate": 92,
-            "affected_candidate": 91,
-            "global_multiplier": 0.011
+            "affected_candidate": 92,
+            "global_multiplier": 0.008
         }
     },
     {
@@ -7205,6 +7213,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 92,
             "affected_candidate": 92,
             "global_multiplier": -0.0002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17014,
+        "fields": {
+            "answer": 2092,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "global_multiplier": 0.012
         }
     }
 ]
@@ -7945,7 +7963,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17008,
         "fields": {
             "answer": 2021,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.4,
             "issue_importance": 3
         }
@@ -7968,6 +7986,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 35,
             "issue_score": 0.4,
             "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17013,
+        "fields": {
+            "answer": 2092,
+            "issue": 36,
+            "issue_score": 0.5,
+            "issue_importance": 12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17015,
+        "fields": {
+            "answer": 2093,
+            "issue": 36,
+            "issue_score": -0.4,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17016,
+        "fields": {
+            "answer": 2094,
+            "issue": 36,
+            "issue_score": -0.6,
+            "issue_importance": 10
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17019,
+        "fields": {
+            "answer": 17017,
+            "issue": 36,
+            "issue_score": 0.15,
+            "issue_importance": 6
         }
     }
 ]
@@ -8965,138 +9023,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 12200,
-        "fields": {
-            "answer": 2104,
-            "state": 241,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12201,
-        "fields": {
-            "answer": 2104,
-            "state": 249,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12202,
-        "fields": {
-            "answer": 2104,
-            "state": 271,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12210,
-        "fields": {
-            "answer": 2105,
-            "state": 245,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12211,
-        "fields": {
-            "answer": 2105,
-            "state": 253,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.013
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12212,
-        "fields": {
-            "answer": 2105,
-            "state": 266,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.013
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12220,
-        "fields": {
-            "answer": 2106,
-            "state": 234,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12221,
-        "fields": {
-            "answer": 2106,
-            "state": 275,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12222,
-        "fields": {
-            "answer": 2106,
-            "state": 243,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12230,
-        "fields": {
-            "answer": 2107,
-            "state": 263,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.013
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12231,
-        "fields": {
-            "answer": 2107,
-            "state": 269,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.013
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12232,
-        "fields": {
-            "answer": 2107,
-            "state": 276,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "state_multiplier": 0.023
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 17010,
         "fields": {
             "answer": 2020,
@@ -9412,7 +9338,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2034,
             "candidate": 92,
-            "answer_feedback": "The Vietnam War is a background issue for most Americans. What worries them more is what you mean by \"any means necessary.\""
+            "answer_feedback": "For how long you've stayed out of the ring, foreign policy is always your strong suit, and something the whole convention can agree upon. Many Americans watching at home, however, trust the President to keep them safe. Changing their mind will be a tall task."
         }
     },
     {
@@ -9421,7 +9347,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2035,
             "candidate": 92,
-            "answer_feedback": "The Vietnam War is a background issue for most Americans. What worries them more is an excessive escalation of the war through the use of nuclear weapons."
+            "answer_feedback": "A subtle distancing from the extremism of Goldwater, but one that gets the job done. You have portrayed yourself as a bulldog for the party, a man it can trust. Let's hope that image stays."
         }
     },
     {
@@ -9430,7 +9356,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2036,
             "candidate": 92,
-            "answer_feedback": "The Vietnam War is a background issue for most Americans, and following a perceived victory in Korea, most Americans are not embarrassed of their state in the international community."
+            "answer_feedback": "fart"
         }
     },
     {
@@ -9781,7 +9707,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2075,
             "candidate": 92,
-            "answer_feedback": "Try as you might, this ad has ultimately made Americans terrified about the prospects of you becoming president."
+            "answer_feedback": "Focusing on his words, not his deeds, is an interesting choice-though at some point you'll have to clarify your own position on racial issues."
         }
     },
     {
@@ -9790,7 +9716,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2076,
             "candidate": 92,
-            "answer_feedback": "The ad continues to haunt the conscience of voters, who seem much more inclined to vote for President Johnson on November 3rd."
+            "answer_feedback": "Conventional wisdom is to avoid legitimizing third party candidates, but Governor Wallace is seriously taking the country by storm. He'll continue to be a problem."
         }
     },
     {
@@ -9799,7 +9725,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2077,
             "candidate": 92,
-            "answer_feedback": "Continuing to decry the dirty tricks of the Johnson campaign could maybe win you more apolitical voters."
+            "answer_feedback": "Unfortunately, the arithmetic of our electoral system does not overpower the emotional pull Wallace has on the dissident right."
         }
     },
     {
@@ -9808,7 +9734,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2078,
             "candidate": 92,
-            "answer_feedback": "After some workshopping, you run an ad that depicts Johnson's presidency leading to the end of the current social order. It's noted for containing racist undertones."
+            "answer_feedback": "For the first time in your political career, you can be accused of being overly optimistic about the strength of American institutions. This does make moderates breathe a sigh of relief, for what it's worth."
         }
     },
     {
@@ -9934,7 +9860,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2092,
             "candidate": 92,
-            "answer_feedback": "You continue to make the case that the Johnson administration is not tough enough on communism. Just two days later, Red China announces they are an atomic power. Will it matter?"
+            "answer_feedback": "Your attempt at outflanking the President from the Left has failed miserably. Moral crusaders across the spectrum assail you for this stance."
         }
     },
     {
@@ -9943,7 +9869,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2093,
             "candidate": 92,
-            "answer_feedback": "Reusing material about Khruschev on Brezhnev makes you come off as ill-concerned about foreign policy."
+            "answer_feedback": "The Evangelical movement and moral crusaders alike rejoice as you arrive as their savior. Many middle Americans too, respect your belief in good values. Johnson remains silent."
         }
     },
     {
@@ -9952,7 +9878,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2094,
             "candidate": 92,
-            "answer_feedback": "Just two days later, Red China announces they are an atomic power. Perhaps you have a point."
+            "answer_feedback": "Justice Douglas is doing just fine, but your near Wallace level rhetoric slightly frightens many of your moderate Republican friends. The flipside is that it gets crowds roaring."
         }
     },
     {
@@ -10042,7 +9968,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2104,
             "candidate": 92,
-            "answer_feedback": "As the campaign draws to a close, Ronald Reagan gives a stunning speech entitled \"A Time for Choosing.\" Could it make the difference in this election?"
+            "answer_feedback": "You cut a few ads of you playing with Checkers again, but many liberal columnists sneer, thinking you're an old dog with no new tricks. You know most Americans don't agree."
         }
     },
     {
@@ -10071,11 +9997,29 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 92,
             "answer_feedback": "As the campaign draws to a close, Ronald Reagan gives a stunning speech entitled \"A Time for Choosing.\" Could it make the difference in this election?"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17012,
+        "fields": {
+            "answer": 17006,
+            "candidate": 92,
+            "answer_feedback": "A scathing attack, but Johnson's loose morals aren't exactly "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17018,
+        "fields": {
+            "answer": 17017,
+            "candidate": 91,
+            "answer_feedback": "Wallace roars across the South, viciously opposing any attempt to keep prayer out of schools. Many of your supporters wish you'd do the same."
+        }
     }
 ]
 
-campaignTrail_temp.candidate_image_url = "undefined";
-campaignTrail_temp.running_mate_image_url = "undefined";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/eYvONUx.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/U5v4DzE.png";
 campaignTrail_temp.candidate_last_name = "Nixon";
 campaignTrail_temp.running_mate_last_name = "Ford";
 
@@ -10085,7 +10029,9 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
     "banner_data": {
         "canName": "Nixon",
-        "runName": "Ford"
+        "runName": "Ford",
+        "runImage": "https://i.imgur.com/U5v4DzE.png",
+        "canImage": "https://i.imgur.com/eYvONUx.png"
     },
     "nicknames": {
         "91": "Johnson",
