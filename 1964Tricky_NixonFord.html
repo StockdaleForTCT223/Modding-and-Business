@@ -148,7 +148,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17030,
         "fields": {
             "priority": 0,
-            "description": "Ford VP Question",
+            "description": "Ford Q",
             "likelihood": 1
         }
     },
@@ -157,7 +157,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17031,
         "fields": {
             "priority": 0,
-            "description": "Pat doesn't want you to run and is miserable",
+            "description": "Catching up to Johnson has been a struggle, but tensions at home are threatening to boil over onto the trail. Pat is positively miserable, and she is not afraid to show it. The loss of your salary from Mudge has hit the family hard, and she despises the pressure of campaigning. Will you try at all to appease your wife?",
             "likelihood": 1
         }
     },
@@ -1295,7 +1295,87 @@ campaignTrail_temp.answers_json = [
         "pk": 17161,
         "fields": {
             "question": 17029,
-            "description": "put description here"
+            "description": "The Great Society is exactly the kind of federal control I warned about in 1960. I know D.C. I know that the bureaucrats there do not know what a regular American family needs. Johnson wants that bureaucracy to be his footsoldiers not in a war on poverty, but in a war on the American people."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17167,
+        "fields": {
+            "question": 17029,
+            "description": "I understand that Johnson only has the best interests of the American people in mind, but Americans know we cannot afford these programs. The inflationary crisis Johnson will contain will erode any gains from this program."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17171,
+        "fields": {
+            "question": 17029,
+            "description": "I believe there is a certain place for government in many areas, and I am glad that Johnson is getting the federal government involved in the enforcement of civil rights laws. The expenditure of these programs, however, is exorbitant, and invites fiscal calamity."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17177,
+        "fields": {
+            "question": 17138,
+            "description": "I don't want that man involved in this at all, do you hear me? He's not President anymore. He has no hold over me. Tell him our schedule is too busy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17179,
+        "fields": {
+            "question": 17029,
+            "description": "What we really need to do is muster a real business resistance to Johnson. They know that I'm a winner, that I can beat these back. Those rich bastards need to know that I'm their man."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17184,
+        "fields": {
+            "question": 17138,
+            "description": "Ike wants to help? Like he did in 1960? I don't want that help... But he is useful. A former President, he'd help. We'll go out to Gettysburg and put an ad together."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17185,
+        "fields": {
+            "question": 17138,
+            "description": "Ike never did a goddamn thing for me, and he wants to show up now? Fine then. Get him on the stump, hitting the Midwest. If he wants to help, he has to work."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17197,
+        "fields": {
+            "question": 17030,
+            "description": "Idk!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17199,
+        "fields": {
+            "question": 17031,
+            "description": "Jesus fucking Christ Pat, I have sacrificed so much for this family, and you do what, this? You do this? You complain, and mope, and sabotage me? Who the fuck do you think you are? Do you provide for this family? Do you do a single fucking thing for us other than get in my way? I have given you everything, and you piss down my leg like this. I won't have it! Get on the goddamn trail with me, be a happy wife, and stop complaining!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17203,
+        "fields": {
+            "question": 17031,
+            "description": "Pat, why don't you take a trip huh? it'd be political but, you can go to Europe. See the sights, take the girls. Let them do something different. If you don't want to be around, you can at least help me out on vacation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17207,
+        "fields": {
+            "question": 17031,
+            "description": "If she wants to bitch, she can stay home. We don't need her. Who cares?"
         }
     }
 ]
@@ -7767,6 +7847,76 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": -0.016
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17166,
+        "fields": {
+            "answer": 17161,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "global_multiplier": -0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17176,
+        "fields": {
+            "answer": 17171,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17181,
+        "fields": {
+            "answer": 17179,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17193,
+        "fields": {
+            "answer": 17184,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17201,
+        "fields": {
+            "answer": 17199,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.0002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17205,
+        "fields": {
+            "answer": 17203,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17209,
+        "fields": {
+            "answer": 17207,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.006
+        }
     }
 ]
 
@@ -8929,6 +9079,166 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 36,
             "issue_score": -0.1,
             "issue_importance": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17163,
+        "fields": {
+            "answer": 17161,
+            "issue": 34,
+            "issue_score": -0.7,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17164,
+        "fields": {
+            "answer": 17161,
+            "issue": "32",
+            "issue_score": -0.5,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17165,
+        "fields": {
+            "answer": 17161,
+            "issue": 35,
+            "issue_score": -0.7,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17169,
+        "fields": {
+            "answer": 17167,
+            "issue": 34,
+            "issue_score": -0.4,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17170,
+        "fields": {
+            "answer": 17167,
+            "issue": 35,
+            "issue_score": -0.4,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17173,
+        "fields": {
+            "answer": 17171,
+            "issue": "32",
+            "issue_score": 0.4,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17174,
+        "fields": {
+            "answer": 17171,
+            "issue": 35,
+            "issue_score": -0.15,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17175,
+        "fields": {
+            "answer": 17171,
+            "issue": 34,
+            "issue_score": -0.5,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17182,
+        "fields": {
+            "answer": 17179,
+            "issue": 34,
+            "issue_score": -0.4,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17183,
+        "fields": {
+            "answer": 17179,
+            "issue": 35,
+            "issue_score": -0.35,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17194,
+        "fields": {
+            "answer": 17184,
+            "issue": "32",
+            "issue_score": 0.3,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17195,
+        "fields": {
+            "answer": 17184,
+            "issue": 35,
+            "issue_score": -0.15,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17196,
+        "fields": {
+            "answer": 17184,
+            "issue": 36,
+            "issue_score": -0.5,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17202,
+        "fields": {
+            "answer": 17199,
+            "issue": 36,
+            "issue_score": -0.5,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17206,
+        "fields": {
+            "answer": 17203,
+            "issue": 36,
+            "issue_score": 0.05,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17210,
+        "fields": {
+            "answer": 17207,
+            "issue": 36,
+            "issue_score": 0.3,
+            "issue_importance": 2
         }
     }
 ]
@@ -10110,6 +10420,61 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 92,
             "state_multiplier": -0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17187,
+        "fields": {
+            "answer": 17185,
+            "state": 244,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17188,
+        "fields": {
+            "answer": 17185,
+            "state": 245,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17189,
+        "fields": {
+            "answer": 17185,
+            "state": 266,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17190,
+        "fields": {
+            "answer": 17185,
+            "state": 253,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17191,
+        "fields": {
+            "answer": 17185,
+            "state": 269,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
     }
 ]
 
@@ -11245,7 +11610,97 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 17161,
             "candidate": 92,
-            "answer_feedback": "put feedback here, don't forget to change candidate"
+            "answer_feedback": "Where was this Nixon in 1960? The one who wouldn't surrender to liberalism? The one that didn't listen to Eisenhower? Maybe he would have won. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17168,
+        "fields": {
+            "answer": 17167,
+            "candidate": 92,
+            "answer_feedback": "The Great Society tugs at America's heart-people want to believe that it will work, that the government can slay all evil on Earth. You are aiming at their brain-doing your best to help them realize it can't. It's not as strong an appeal, but it is a good one."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17172,
+        "fields": {
+            "answer": 17171,
+            "candidate": 92,
+            "answer_feedback": "You're embracing the old New Nixon of 1960, deflating conservatives and galvanizing the old Republican Center alike. The demographic that likes Johnson's civil rights bill, but doesn't like Johnson, unfortunately, is a small one."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17178,
+        "fields": {
+            "answer": 17177,
+            "candidate": 92,
+            "answer_feedback": "It's a good feeling, sticking it to Ike. For all the times he screwed you, he's irrelevant. Nobody needs him. Nobody cares if he hits the trail. What a joke of a man."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17180,
+        "fields": {
+            "answer": 17179,
+            "candidate": 92,
+            "answer_feedback": "This nation's producing class has been left without a champion for too long... but they aren't so sure it's you. A two time loser?  They make their customary donations but there's no heart in it. Sick bastards."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17186,
+        "fields": {
+            "answer": 17185,
+            "candidate": 92,
+            "answer_feedback": "Eisenhower is old, creaky, but he hits the stump vigorously, pounding the old rounds in the Midwest. You make small talk on a bus going through Cleveland. He tells you he doesn't think you'll win this one. Asshole. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17192,
+        "fields": {
+            "answer": 17184,
+            "candidate": 91,
+            "answer_feedback": "<i><q>Richard Nixon was one of the best vice presidents in this nation's history. I have never felt more comfortable in my time in government than when he had his steady hand on the wheel, and I urge you to vote for him,</q></i> Ike lies."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17198,
+        "fields": {
+            "answer": 17197,
+            "candidate": 92,
+            "answer_feedback": "Idk! Fuck you!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17200,
+        "fields": {
+            "answer": 17199,
+            "candidate": 92,
+            "answer_feedback": "The crowd rejoices as you and Pat stand on a parade float marching down the streets of Miami. You go to hold Pat's hand. She swipes it away. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17204,
+        "fields": {
+            "answer": 17203,
+            "candidate": 92,
+            "answer_feedback": "Pat nods, and jets off to Europe to roll with the wealthy trendsetters across the Atlantic. She seems to have fun,but the columnists at home chatter about marital strife, rumors of divorce. In a post-Kennedy world these rumors are ever more frequent, and ever more frustrating."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17208,
+        "fields": {
+            "answer": 17207,
+            "candidate": 92,
+            "answer_feedback": "Pat's perpetual cold makes columnists wonder. Is your marriage doing fine? Do you have late night screaming fits? Regardless of the chatter, not having Pat on the trail loses you the family friendly angle."
         }
     }
 ]
