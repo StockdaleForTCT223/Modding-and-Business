@@ -202,7 +202,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17072,
         "fields": {
             "priority": 0,
-            "description": "Ford Q, Scandal maybe?",
+            "description": "Ford has informed you that the mood among GOP Congressional candidates is tense. With the Kohly scandal, many of them are wary of making public appearances with you. How do you want to contain the damage?",
             "likelihood": 1
         }
     },
@@ -1552,6 +1552,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17030,
             "description": "Everyone in Congress loves Gerry. They'd all stand by him, be willing to back him up. We have plenty of records of people praising us. That'll counteract the dumb narrative."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17328,
+        "fields": {
+            "question": 17072,
+            "description": "Gerry knows how to bring the congress together. They trust him. People believe in him. He'll assure them it's fake, and it'll all be better."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17329,
+        "fields": {
+            "question": 17072,
+            "description": "Those sons of bitches don't trust me? Really? They trust Johnson more? Jesus Christ. It's bullshit. We don't need them, we don't need any of them! Let's just go without them. We don't need a single goddamn one of those thumbsuckers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17330,
+        "fields": {
+            "question": 17072,
+            "description": "Oh c'mon, are you kidding me? I'm innocent! I'm totally innocent! They know I never, I didn't do a damned thing for Kohly. This is all horseshit. We need to reissue a denial, search for more evidence, anything to disprove this garbage."
         }
     }
 ]
@@ -8223,6 +8247,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": -0.004
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17333,
+        "fields": {
+            "answer": 17328,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17336,
+        "fields": {
+            "answer": 17330,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17340,
+        "fields": {
+            "answer": 17329,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.008
+        }
     }
 ]
 
@@ -9795,6 +9849,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 36,
             "issue_score": -0.1,
             "issue_importance": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17334,
+        "fields": {
+            "answer": 17328,
+            "issue": 36,
+            "issue_score": -0.15,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17338,
+        "fields": {
+            "answer": 17330,
+            "issue": 33,
+            "issue_score": -0.5,
+            "issue_importance": 2
         }
     }
 ]
@@ -12846,6 +12920,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17323,
             "candidate": 92,
             "answer_feedback": "There's plenty of photos of Ford being chummy with other congressmen, and quotes of even Democrats praising him. The ads play well, but there's something that makes people listen more when Johnson says Ford could trip in a parking lot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17332,
+        "fields": {
+            "answer": 17328,
+            "candidate": 92,
+            "answer_feedback": "You might not have credibility at this point, but Gerry certainly does, as he assures candidates that this is a whole drummed up scandal. Public appearances are back to normal, albeit tense."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17337,
+        "fields": {
+            "answer": 17330,
+            "candidate": 92,
+            "answer_feedback": "Your continued protests of innocence only seem to bring public attention back towards the scandal, just as the news cycle moved away from it. That's probably not a good thing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17339,
+        "fields": {
+            "answer": 17329,
+            "candidate": 92,
+            "answer_feedback": "One man, against Johnson, totally and completely alone. That's how it's meant to be. One boat against the whole navy of Imperial Japan. That's all it takes to win."
         }
     }
 ]
