@@ -193,7 +193,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17071,
         "fields": {
             "priority": 0,
-            "description": "We seem to be getting our footing, as the campaign against Johnson progresses. One of his biggest programs has been Medicare, a socialized healthcare scheme offering healthcare to the elderly and disabled. Do you support the Medicare program?",
+            "description": "Our operatives are still trying to return to normal after the Kohly story, so the campaign is hoping to pivot to standard issues. One of the programs Johnson has proposed is Medicare, a socialized healthcare scheme offering healthcare to the elderly and disabled. Do you support the Medicare program?",
             "likelihood": 1
         }
     },
@@ -1496,6 +1496,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17070,
             "description": "We need to really go for Lyndon's nuts on this one. You know what I mean? Just really step on him. A big ad. Something good. Y'know? Right in his guts."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17288,
+        "fields": {
+            "question": 17071,
+            "description": "Physicians across the country have made their opinions about this program extraordinarily clear-that it is an unconscionable government takeover of our healthcare system, which will only get in the way of our doctors doing their jobs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17289,
+        "fields": {
+            "question": 17071,
+            "description": "I believe all Americans could agree that this program is prohibitively expensive. I would support a program that Americans could choose to purchase, rather than a mandatory socialized system."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17290,
+        "fields": {
+            "question": 17071,
+            "description": "This idea is truly a frightening one. The idea that the government can determine who your doctor is and what medicines you can take is genuinely astounding. I pray our country will reject this dangerous idea."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17291,
+        "fields": {
+            "question": 17071,
+            "description": "The insurance companies hate the idea, and they know I wouldn't sign it. We don't have to say we hate it, but we could just go ahead and take their money."
         }
     }
 ]
@@ -8127,6 +8159,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": -0.024
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17299,
+        "fields": {
+            "answer": 17291,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.008
+        }
     }
 ]
 
@@ -9456,7 +9498,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17219,
         "fields": {
             "answer": 17211,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.7,
             "issue_importance": 8
         }
@@ -9466,7 +9508,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17230,
         "fields": {
             "answer": 17212,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.2,
             "issue_importance": 4
         }
@@ -9476,7 +9518,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17245,
         "fields": {
             "answer": 17213,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.1,
             "issue_importance": 2
         }
@@ -9486,7 +9528,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17247,
         "fields": {
             "answer": 17229,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.3,
             "issue_importance": 5
         }
@@ -9506,7 +9548,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17268,
         "fields": {
             "answer": 17265,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.4,
             "issue_importance": 3
         }
@@ -9526,7 +9568,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17272,
         "fields": {
             "answer": 17270,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.3,
             "issue_importance": 4
         }
@@ -9588,6 +9630,76 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 17283,
             "issue": 36,
             "issue_score": 0.15,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17293,
+        "fields": {
+            "answer": 17288,
+            "issue": 34,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17294,
+        "fields": {
+            "answer": 17288,
+            "issue": 35,
+            "issue_score": -0.4,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17296,
+        "fields": {
+            "answer": 17289,
+            "issue": 34,
+            "issue_score": 0.15,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17297,
+        "fields": {
+            "answer": 17289,
+            "issue": 35,
+            "issue_score": 0.25,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17300,
+        "fields": {
+            "answer": 17291,
+            "issue": 35,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17301,
+        "fields": {
+            "answer": 17290,
+            "issue": 34,
+            "issue_score": -0.78,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17302,
+        "fields": {
+            "answer": 17290,
+            "issue": 35,
+            "issue_score": -0.8,
             "issue_importance": 5
         }
     }
@@ -12456,6 +12568,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17283,
             "candidate": 92,
             "answer_feedback": "<i><q>In The Dark of Night</q></i> may go down as one of the most infamous ads in political history. Millions of Americans watch a video of a hungover president incapable of responding to a nuclear strike. They find the insinuation about Johnson's personal life is reprehensible, and you immediately apologize and are forced to take it down."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17292,
+        "fields": {
+            "answer": 17288,
+            "candidate": 92,
+            "answer_feedback": "The American Medical Association has viciously fought against the passage of Medicare-their credibility is likely the most effective way to critique this immensely popular program. The issue remains, however, that it's an incredibly popular idea."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17295,
+        "fields": {
+            "answer": 17289,
+            "candidate": 92,
+            "answer_feedback": "You have been pushing this plan since the 1960 campaign, but it seems the tides of public opinion are in Johnson's favor. Having a credible alternative can never be bad, but Johnson has the upper hand here."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17298,
+        "fields": {
+            "answer": 17291,
+            "candidate": 92,
+            "answer_feedback": "Using this as a way to swell your coffers is smart, as the big insurance companies pass you massive checks to kill it. The downside is that Johnson entirely owns the issue-voters trust him on it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17303,
+        "fields": {
+            "answer": 17290,
+            "candidate": 92,
+            "answer_feedback": "Crowds of thronging conservatives are glad to see you take no guff from the President, but people want their grandparents to be able to see a doctor. No diatribes on personal responsibility or socialism will beat that."
         }
     }
 ]
