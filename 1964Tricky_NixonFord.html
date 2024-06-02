@@ -148,7 +148,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17030,
         "fields": {
             "priority": 0,
-            "description": "Ford Q",
+            "description": "Despite his tireless campaigning, the Johnson campaign has begun to train its attacks on Ford, using an unusual angle-that he's dumb. Pointing to the relatively few bills he's passed, the Johnson campaign is haranguing Ford, saying he's an undistinguished legislator who just doesn't have it intellectually. Will we attempt to counteract this perception?",
             "likelihood": 1
         }
     },
@@ -1351,7 +1351,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17197,
         "fields": {
             "question": 17030,
-            "description": "Idk!"
+            "description": "If Ford is so dumb, how come the President personally trusted Gerry to serve on the Warren Commission? There's more to being a congressman than writing laws-Ford's service on the Commission did more to restore public trust in the government than any law Johnson ever signed."
         }
     },
     {
@@ -1528,6 +1528,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17071,
             "description": "The insurance companies hate the idea, and they know I wouldn't sign it. We don't have to say we hate it, but we could just go ahead and take their money."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17315,
+        "fields": {
+            "question": 17030,
+            "description": "This is just plain nasty campaigning. Gerry Ford is an incredible man, and the Johnson campaign's assertion that he is anything less than a brilliant man is plain slander."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17319,
+        "fields": {
+            "question": 17030,
+            "description": "Frankly, I think we have a lot more to say about Johnson's ticket-mate. Humphrey is very...friendly, to, special interests. You know? Special interests, if you understand my point. Humphrey isn't interested in the little guy. The people in this country who really need help."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17323,
+        "fields": {
+            "question": 17030,
+            "description": "Everyone in Congress loves Gerry. They'd all stand by him, be willing to back him up. We have plenty of records of people praising us. That'll counteract the dumb narrative."
         }
     }
 ]
@@ -8169,6 +8193,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": 0.008
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17304,
+        "fields": {
+            "answer": 17197,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17317,
+        "fields": {
+            "answer": 17315,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17325,
+        "fields": {
+            "answer": 17323,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.004
+        }
     }
 ]
 
@@ -9702,6 +9756,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": -0.8,
             "issue_importance": 5
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17313,
+        "fields": {
+            "answer": 17197,
+            "issue": 36,
+            "issue_score": -0.3,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17314,
+        "fields": {
+            "answer": 17197,
+            "issue": 35,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17321,
+        "fields": {
+            "answer": 17319,
+            "issue": "32",
+            "issue_score": -0.3,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17326,
+        "fields": {
+            "answer": 17315,
+            "issue": 36,
+            "issue_score": -0.1,
+            "issue_importance": 0.25
+        }
     }
 ]
 
@@ -11234,6 +11328,127 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 92,
             "state_multiplier": 0.008
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17305,
+        "fields": {
+            "answer": 17197,
+            "state": 238,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17306,
+        "fields": {
+            "answer": 17197,
+            "state": 250,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17307,
+        "fields": {
+            "answer": 17197,
+            "state": 252,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17308,
+        "fields": {
+            "answer": 17197,
+            "state": 263,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17309,
+        "fields": {
+            "answer": 17197,
+            "state": 270,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17310,
+        "fields": {
+            "answer": 17197,
+            "state": 276,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17311,
+        "fields": {
+            "answer": 17197,
+            "state": 260,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17312,
+        "fields": {
+            "answer": 17197,
+            "state": 261,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17318,
+        "fields": {
+            "answer": 17315,
+            "state": 253,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "state_multiplier": -0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17322,
+        "fields": {
+            "answer": 17319,
+            "state": 253,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "state_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17327,
+        "fields": {
+            "answer": 17323,
+            "state": 253,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "state_multiplier": -0.008
+        }
     }
 ]
 
@@ -12432,7 +12647,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 17197,
             "candidate": 92,
-            "answer_feedback": "Idk! Fuck you!"
+            "answer_feedback": "The Warren Commission was popular, bipartisan work, and highlighting Ford's major role on the committee is a good angle. It definitely removes the stupid angle."
         }
     },
     {
@@ -12604,6 +12819,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17290,
             "candidate": 92,
             "answer_feedback": "Crowds of thronging conservatives are glad to see you take no guff from the President, but people want their grandparents to be able to see a doctor. No diatribes on personal responsibility or socialism will beat that."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17316,
+        "fields": {
+            "answer": 17315,
+            "candidate": 92,
+            "answer_feedback": "The rhetoric from some Johnson surrogates is a bit mean, but it's true that Ford hasn't passed a lot of serious, major legislation. He's a congressman's congressman, beloved by his district, but with a scant national record."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17320,
+        "fields": {
+            "answer": 17319,
+            "candidate": 92,
+            "answer_feedback": "Your staff hits the ground running. Humphrey doesn't care about the little guy. He doesn't have the interests of <i>real Americans</i> in mind. He won't help you. It's more subtle than certain people on the trail this year, but it gets the point across. Shame everyone still thinks Ford is an idiot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17324,
+        "fields": {
+            "answer": 17323,
+            "candidate": 92,
+            "answer_feedback": "There's plenty of photos of Ford being chummy with other congressmen, and quotes of even Democrats praising him. The ads play well, but there's something that makes people listen more when Johnson says Ford could trip in a parking lot."
         }
     }
 ]
