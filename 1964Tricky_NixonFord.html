@@ -166,7 +166,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17032,
         "fields": {
             "priority": 0,
-            "description": "Southern Republicans, Strom Thurmond thumb on the scales",
+            "description": "With the passage of the Civil Rights Act, and Senator Strom Thurmond's switch from the Democratic to Republican Party, it appears that the GOP's prospects in the South are brighter than ever. Goldwater would have swept the region, but Wallace's candidacy seems to keep its electoral votes out of your hands. Are you willing to adjust your rhetoric to change that?",
             "likelihood": 1
         }
     },
@@ -1376,6 +1376,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17031,
             "description": "If she wants to bitch, she can stay home. We don't need her. Who cares?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17211,
+        "fields": {
+            "question": 17032,
+            "description": "Senator Thurmond has put together a fantastic program to do just that. He knows that there are large swaths of the GOP that see this Civil Rights Act as far too much government intervention. One of them could be Attorney General..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17212,
+        "fields": {
+            "question": 17032,
+            "description": "I don't think the math is there. Johnson's Bill is just too popular right now for us to risk our Northern support. Thurmond's offer is appreciated, but we can't risk it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17213,
+        "fields": {
+            "question": 17032,
+            "description": "Ford is committed to rebuilding the Congressional majority right? That path heads through the South. We need a real, fully functioning up and down ballot operation in the South, and Gerry should be the one to head it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17229,
+        "fields": {
+            "question": 17032,
+            "description": "The South can be brought in, but they require a certain...unsubtlety, that Northerners don't respond to. We should continue to press the Northern vote on racial issues in subtle ways, and hope the South follows."
         }
     }
 ]
@@ -7917,6 +7949,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": -0.006
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17218,
+        "fields": {
+            "answer": 17211,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "global_multiplier": -0.024
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17231,
+        "fields": {
+            "answer": 17212,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "global_multiplier": 0.0035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17248,
+        "fields": {
+            "answer": 17229,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "global_multiplier": -0.004
+        }
     }
 ]
 
@@ -9096,7 +9158,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17164,
         "fields": {
             "answer": 17161,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.5,
             "issue_importance": 1
         }
@@ -9136,7 +9198,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17173,
         "fields": {
             "answer": 17171,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.4,
             "issue_importance": 3
         }
@@ -9186,7 +9248,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17194,
         "fields": {
             "answer": 17184,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.3,
             "issue_importance": 0.5
         }
@@ -9239,6 +9301,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 36,
             "issue_score": 0.3,
             "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17219,
+        "fields": {
+            "answer": 17211,
+            "issue": "32",
+            "issue_score": -0.7,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17230,
+        "fields": {
+            "answer": 17212,
+            "issue": "32",
+            "issue_score": 0.2,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17245,
+        "fields": {
+            "answer": 17213,
+            "issue": "32",
+            "issue_score": 0.1,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17247,
+        "fields": {
+            "answer": 17229,
+            "issue": "32",
+            "issue_score": -0.3,
+            "issue_importance": 5
         }
     }
 ]
@@ -10475,6 +10577,259 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 92,
             "state_multiplier": 0.008
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17214,
+        "fields": {
+            "answer": 17211,
+            "state": 232,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.028
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17215,
+        "fields": {
+            "answer": 17211,
+            "state": 235,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17216,
+        "fields": {
+            "answer": 17211,
+            "state": 271,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17220,
+        "fields": {
+            "answer": 17211,
+            "state": 241,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17221,
+        "fields": {
+            "answer": 17211,
+            "state": 241,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17222,
+        "fields": {
+            "answer": 17211,
+            "state": 274,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17223,
+        "fields": {
+            "answer": 17211,
+            "state": 249,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17224,
+        "fields": {
+            "answer": 17211,
+            "state": 240,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17225,
+        "fields": {
+            "answer": 17211,
+            "state": 248,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17226,
+        "fields": {
+            "answer": 17211,
+            "state": 273,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17227,
+        "fields": {
+            "answer": 17211,
+            "state": 255,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17233,
+        "fields": {
+            "answer": 17213,
+            "state": 232,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.028
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17234,
+        "fields": {
+            "answer": 17213,
+            "state": 255,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17235,
+        "fields": {
+            "answer": 17213,
+            "state": 241,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.034
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17236,
+        "fields": {
+            "answer": 17213,
+            "state": 271,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17237,
+        "fields": {
+            "answer": 17213,
+            "state": 235,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17238,
+        "fields": {
+            "answer": 17213,
+            "state": 249,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.032
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17239,
+        "fields": {
+            "answer": 17213,
+            "state": 240,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17240,
+        "fields": {
+            "answer": 17213,
+            "state": 273,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17241,
+        "fields": {
+            "answer": 17213,
+            "state": 277,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17242,
+        "fields": {
+            "answer": 17213,
+            "state": 264,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17243,
+        "fields": {
+            "answer": 17213,
+            "state": 274,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.014
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 17244,
+        "fields": {
+            "answer": 17213,
+            "state": 248,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "state_multiplier": 0.008
+        }
     }
 ]
 
@@ -11646,7 +12001,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 17179,
             "candidate": 92,
-            "answer_feedback": "This nation's producing class has been left without a champion for too long... but they aren't so sure it's you. A two time loser?  They make their customary donations but there's no heart in it. Sick bastards."
+            "answer_feedback": "This nation's producing class has been left without a champion for too long... but they aren't so sure it's you. A two time loser? They make their customary donations but there's no heart in it. Sick bastards."
         }
     },
     {
@@ -11701,6 +12056,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17207,
             "candidate": 92,
             "answer_feedback": "Pat's perpetual cold makes columnists wonder. Is your marriage doing fine? Do you have late night screaming fits? Regardless of the chatter, not having Pat on the trail loses you the family friendly angle."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17217,
+        "fields": {
+            "answer": 17211,
+            "candidate": 92,
+            "answer_feedback": "Thurmond proudly endorses your campaign, saying that you're a much more realistic candidate for the South to support than Wallace. This should really take the wind out of Wallace's sails, though from Johnson's perspective this might be a gift."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17228,
+        "fields": {
+            "answer": 17212,
+            "candidate": 92,
+            "answer_feedback": "Thurmond understands, but he can't say he's happy about it. The Eastern Establishment is happily surprised to hear you aren't selling out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17232,
+        "fields": {
+            "answer": 17213,
+            "candidate": 92,
+            "answer_feedback": "Ford begins to stump the South, palling around with congressional candidates who see increasingly large crowds. Ford's presence gives them some serious legitimacy, and shows the South that you're really listening to them. Maybe someday the political geography will really change."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17246,
+        "fields": {
+            "answer": 17229,
+            "candidate": 92,
+            "answer_feedback": "You speak at your rallies about law and order, about not forgetting anyone in this country. You can only hope the Solid South isn't distracted by Wallace's theatrics."
         }
     }
 ]
