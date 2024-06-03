@@ -130,7 +130,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17400,
         "fields": {
             "priority": 0,
-            "description": "A new story has broken which spells bad news for us. The Washington Post has found evidence that you're tied to Madame Nhu, a South Vietnamese emigre who attempted to hire you as her lawyer, and who is famous for defending the slaughter of monks who opposed the Diem regime. Worst of all, the  Post has found letters suggesting that you ran for president entirely at her urging. Johnson is assailing you for your connections to <q>destabilizing figures.</q> How can we contain this damage?",
+            "description": "A new story has broken which spells bad news for us. The Washington Post has found evidence that you're tied to Madame Nhu, a South Vietnamese emigre who attempted to hire you as her lawyer, and who is famous for defending the slaughter of monks who opposed the Diem regime. Worst of all, the Post has found letters suggesting that you ran for president entirely at her urging. Johnson is assailing you for your connections to <q>destabilizing figures.</q> How can we contain this damage?",
             "likelihood": 1
         }
     },
@@ -211,7 +211,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17072,
         "fields": {
             "priority": 0,
-            "description": "Ford has informed you that the mood among GOP Congressional candidates is tense. With the Kohly and Nhu mess, many of them are wary of making public appearances with you. How do you want to contain the damage?",
+            "description": "Ford has informed you that the mood among GOP Congressional candidates is tense. After your recent scandals, many of them are wary of making public appearances with you. These men all used to love you, but there's a general public perception that you're a pawn of shady money and shady influences, changed by your time in New York. How do you want to convince these candidates otherwise, and reunite the party?",
             "likelihood": 1
         }
     },
@@ -1713,6 +1713,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17075,
             "description": "The real story here, you know, is that this is a national security issue. The homosexuals... they're too easy to blackmail. This man's lifestyle kept us at incredible risk. Johnson didn't know that? That's not Presidential."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17415,
+        "fields": {
+            "question": 17400,
+            "description": "I never sent a single letter back to Ms. Nhu, and all of her correspondence was put in my junk drawer. I don't even know where this came from-has the President had someone rummaging in my garbage?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17416,
+        "fields": {
+            "question": 17400,
+            "description": "I remember Madame Nhu-I always believed she was a nut, and did everything I could to avoid her. It is regrettable that she kept trying to contact me, but I have always completely and unambiguously rejected her aid and advice, and I'll continue to do so. I ran to make the party proud-I would never undertake something this vast to please any woman other than my wife."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17417,
+        "fields": {
+            "question": 17400,
+            "description": "Perhaps Cabot can clear this up. I know some of these articles suggest I didn't choose him as my running mate because she didn't like him. Maybe he can clarify that."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17418,
+        "fields": {
+            "question": 17400,
+            "description": "I have solicited feedback on foreign policy from many people, and that has included Madame Nhu. This is not an endorsement of her views, but understanding the views of former supporters of President Diem is an important task if we hope to find a permanent peace in Indochina."
         }
     }
 ]
@@ -8604,6 +8636,46 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17420,
+        "fields": {
+            "answer": 17415,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.024
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17422,
+        "fields": {
+            "answer": 17417,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17426,
+        "fields": {
+            "answer": 17418,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.028
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17428,
+        "fields": {
+            "answer": 17416,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.022
+        }
     }
 ]
 
@@ -10263,7 +10335,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17376,
         "fields": {
             "answer": 17371,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.05,
             "issue_importance": 4
         }
@@ -10283,7 +10355,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17385,
         "fields": {
             "answer": 17372,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.3,
             "issue_importance": 2
         }
@@ -10293,7 +10365,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17388,
         "fields": {
             "answer": 17373,
-            "issue": "32",
+            "issue": 32,
             "issue_score": 0.5,
             "issue_importance": 6
         }
@@ -10303,7 +10375,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17390,
         "fields": {
             "answer": 17374,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.7,
             "issue_importance": 8
         }
@@ -10366,6 +10438,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 33,
             "issue_score": -0.45,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17423,
+        "fields": {
+            "answer": 17417,
+            "issue": 33,
+            "issue_score": 0.2,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17427,
+        "fields": {
+            "answer": 17418,
+            "issue": 33,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17429,
+        "fields": {
+            "answer": 17416,
+            "issue": 33,
+            "issue_score": 0.1,
+            "issue_importance": 2
         }
     }
 ]
@@ -13634,6 +13736,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17409,
             "candidate": 92,
             "answer_feedback": "Making it a national security issue is the easiest way to talk about it in public without sounding distasteful. It's also a very effective angle, one that leaves housewives and former GIs nodding their heads nationwide."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17419,
+        "fields": {
+            "answer": 17415,
+            "candidate": 92,
+            "answer_feedback": "What an inappropriate assertion to make about our commander-in-chief! Many Americans are outraged you'd give into conspiracies like this."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17421,
+        "fields": {
+            "answer": 17417,
+            "candidate": 92,
+            "answer_feedback": "Lodge sends a wire back to the US, saying that he knows for a fact you would never, ever seek Ms. Nhu's endorsement or give into her games. His assertion that this is all a load of bull goes far to clear this up."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17424,
+        "fields": {
+            "answer": 17416,
+            "candidate": 92,
+            "answer_feedback": "A flat denial is a good way to counteract the charges, but any type of endorsement from a monk killer will always be bad news. You swore that the only people who ever even got a whiff of your involvement with Nhu were a few friends on the campaign plane..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17425,
+        "fields": {
+            "answer": 17418,
+            "candidate": 92,
+            "answer_feedback": "Try as you might, to many Americans this sounds like you're getting chummy with dictators and murderers. Whatever the reason, that's not very American, they like to think."
         }
     }
 ]
