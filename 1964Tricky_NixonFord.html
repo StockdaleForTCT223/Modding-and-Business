@@ -256,7 +256,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17081,
         "fields": {
             "priority": 0,
-            "description": "Almost a year since Kennedy's passing, what do you have to say about Jack?",
+            "description": "By election day, it will have been almost a year since the tragic passing of President Kennedy. Johnson is bathing himself in Kennedy's glory at every opportunity. Do you have anything to say about the slain commander in chief?",
             "likelihood": 1
         }
     },
@@ -265,7 +265,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17077,
         "fields": {
             "priority": 0,
-            "description": "Nixon Scandal #2, the doozy",
+            "description": "Nixon Scandal #3, the doozy",
             "likelihood": 1
         }
     },
@@ -1752,7 +1752,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17430,
         "fields": {
             "question": 17076,
-            "description": "I may have never met Brezhnev, but I have traveled the Soviet Union, seen its people, met with them."
+            "description": "I may have never met Brezhnev, but I have traveled the Soviet Union, seen its people, met with them. I know the Soviet Union better than any man in this race, and I am the most qualified to handle Khrushchev's departure."
         }
     },
     {
@@ -1760,7 +1760,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17431,
         "fields": {
             "question": 17076,
-            "description": ""
+            "description": "President Johnson has for too long focused his efforts at home, and has avoided taking on the tough questions abroad. We may be at war in Vietnam, but we are not adequately prepared for if China or Brezhnev were to intervene."
         }
     },
     {
@@ -1777,6 +1777,46 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17027,
             "description": "I think that, at this point in time, we are in a prime position to pare down our hostilities with the Soviet Union. The crisis in Cuba has proven that at some point, we need to figure out how to at least tolerate each other, for the sake of our own survival."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17453,
+        "fields": {
+            "question": 17076,
+            "description": "Well, I suppose we should pivot away from the Khrushchev angle then. Not much else to do except voice our hopes that we can work with him."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17455,
+        "fields": {
+            "question": 17076,
+            "description": "This Brezhnev fellow's name sounds so close to Khrushchev's for a reason. The Soviets are all the same-they only care about oppressing free peoples. We'll handle Brezhnev the way I handled Khrushchev, and all other enemies of freedom."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17463,
+        "fields": {
+            "question": 17081,
+            "description": "The fact that Johnson can get away with being Kennedy's successor is just infuriating. The way he wags Jackie around like a corpse on a stick. It's fake, and we need voters to see through it-that Johnson and Kennedy are nothing alike."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17466,
+        "fields": {
+            "question": 17081,
+            "description": "I loved Jack, really. I did, y'know. Was his biggest cheerleader for a long time. Even when he beat me, I was gracious. But "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17467,
+        "fields": {
+            "question": 17081,
+            "description": "I'm not afraid to say it y'know? I'm not! Listen, all I'm saying is that Lyndon Baines Johnson is the luckiest man to ever live in the Naval Observatory. Do you understand my point?"
         }
     }
 ]
@@ -8758,6 +8798,106 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 93,
             "global_multiplier": 0.006
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17447,
+        "fields": {
+            "answer": 17430,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17448,
+        "fields": {
+            "answer": 17430,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17451,
+        "fields": {
+            "answer": 17431,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": 0.0065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17457,
+        "fields": {
+            "answer": 17453,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17458,
+        "fields": {
+            "answer": 17453,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17460,
+        "fields": {
+            "answer": 17455,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17461,
+        "fields": {
+            "answer": 17455,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17465,
+        "fields": {
+            "answer": 17463,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17469,
+        "fields": {
+            "answer": 17467,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.036
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17471,
+        "fields": {
+            "answer": 17466,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.016
+        }
     }
 ]
 
@@ -10580,6 +10720,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 33,
             "issue_score": 0.4,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17449,
+        "fields": {
+            "answer": 17430,
+            "issue": 33,
+            "issue_score": -0.4,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17452,
+        "fields": {
+            "answer": 17431,
+            "issue": 33,
+            "issue_score": -0.3,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17459,
+        "fields": {
+            "answer": 17453,
+            "issue": 33,
+            "issue_score": 0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17462,
+        "fields": {
+            "answer": 17455,
+            "issue": 33,
+            "issue_score": -0.7,
+            "issue_importance": 5
         }
     }
 ]
@@ -13904,6 +14084,69 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 17441,
             "candidate": 92,
             "answer_feedback": "The idea that you might <q>tolerate</q> the oppression of peoples yearning to be free from the heavy hand of the Soviet Union disgusts many of the Republican party faithful."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17446,
+        "fields": {
+            "answer": 17430,
+            "candidate": 92,
+            "answer_feedback": "The loss of Khrushchev means some of your best tested advertisements are out, but you do have the credentials to handle the new situation. This is a good new angle to use against Johnson."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17450,
+        "fields": {
+            "answer": 17431,
+            "candidate": 92,
+            "answer_feedback": "Just two days later the Chinese announce they have a nuclear bomb, ramping up tensions in Southeast Asia even more. Your expertise in the region is welcomed by many Americans."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17454,
+        "fields": {
+            "answer": 17453,
+            "candidate": 92,
+            "answer_feedback": "In an uncertain time, Americans want answers more than anything else, and they see you as someone qualified to give them. The fact that you won't leaves them with grave misgivings."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17456,
+        "fields": {
+            "answer": 17455,
+            "candidate": 92,
+            "answer_feedback": "The never surrender angle is effective, and rallies the base, but many Americans are unconvinced by the idea that all Soviets are faceless automatons. They might be evil, but they're different, and pretending they aren't just sounds dumb."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17464,
+        "fields": {
+            "answer": 17463,
+            "candidate": 92,
+            "answer_feedback": "A flashy ad is put together cutting footage of Kennedy in his graceful sailboat, and Johnson in his boorish speedboat, mixed with various moments of Johnson being crass. Those who see it before it airs are so outraged that you're using Kennedy to win votes that you decide against even airing it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17468,
+        "fields": {
+            "answer": 17467,
+            "candidate": 92,
+            "answer_feedback": "You stayed up too late last night watching that shlocky horror dreck, <i>Midnight: Blood and Politics</i>. Repeating its plot as truth shocks voters nationwide, who are disgusted you'd insinuate such a thing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17470,
+        "fields": {
+            "answer": 17466,
+            "candidate": 92,
+            "answer_feedback": "All Johnson ever does is talk about Kennedy, about continuing his legacy, upholding Camelot. Such bullshit. You would have had a Camelot of your own. But it wouldn't have had such a gay name."
         }
     }
 ]
