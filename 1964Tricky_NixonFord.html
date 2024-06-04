@@ -265,16 +265,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17077,
         "fields": {
             "priority": 0,
-            "description": "Nixon Scandal #3, the doozy",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 17078,
-        "fields": {
-            "priority": 0,
-            "description": "Final messaging, how can we make people trust you again?",
+            "description": "Unfortunately, things have taken a turn for the worse. A new report has released saying that, when President Kennedy died, you told a confidant that, <q>Johnson never liked being second place.</q> The comment has taken the country by firestorm, as Americans are horrified that someone so prominent could say such an awful thing. Will we try at all to",
             "likelihood": 1
         }
     },
@@ -283,7 +274,7 @@ campaignTrail_temp.questions_json = [
         "pk": 17079,
         "fields": {
             "priority": 0,
-            "description": "Last theme of the campaign",
+            "description": "With this final major October Surprise killing our campaign, we are limping into the polls on election day. What is the final message you want to spread to voters as they get ready to elect their next president?",
             "likelihood": 1
         }
     },
@@ -1624,7 +1615,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17367,
         "fields": {
             "question": 17077,
-            "description": "Johnson framed me!!!!"
+            "description": "C'mon, don't believe it just because it's in the papers! This is a frame! A sham job! Somebody went to this fellow I met in Texas and paid him off to say I said it! It's not true, none of it is!"
         }
     },
     {
@@ -1632,15 +1623,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17368,
         "fields": {
             "question": 17077,
-            "description": "Deny deny deny, move on"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 17369,
-        "fields": {
-            "question": 17077,
-            "description": "Oh please, like you can trust Lyndon anyways."
+            "description": "The sources on this are bullshit, y'know? Just flatly deny it. I never said a damn thing."
         }
     },
     {
@@ -1648,7 +1631,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17370,
         "fields": {
             "question": 17077,
-            "description": "This is the end of my presidency. We're fucked."
+            "description": "Is it even worth saying anything at this point? "
         }
     },
     {
@@ -1760,7 +1743,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17431,
         "fields": {
             "question": 17076,
-            "description": "President Johnson has for too long focused his efforts at home, and has avoided taking on the tough questions abroad. We may be at war in Vietnam, but we are not adequately prepared for if China or Brezhnev were to intervene."
+            "description": "What this underscores is that we need a candidate laser focused on foreign issues. Nobody but me has the foresight to handle international affairs in such an unstable environment."
         }
     },
     {
@@ -1808,15 +1791,23 @@ campaignTrail_temp.answers_json = [
         "pk": 17466,
         "fields": {
             "question": 17081,
-            "description": "I loved Jack, really. I did, y'know. Was his biggest cheerleader for a long time. Even when he beat me, I was gracious. But "
+            "description": "I loved Jack, really. I did, y'know. Was his biggest cheerleader for a long time. Even when he beat me, I was gracious. It was a horrible tragedy, losing a friend."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 17467,
+        "pk": 17472,
+        "fields": {
+            "question": 17079,
+            "description": "Goddamnit, I am not a crook! I'm not! I am the Nixon you all know and love, I have not been changed by the wilderness. I am the friendly neighborhood Richard Nixon you can trust, and we need to remind voters of that."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17473,
         "fields": {
             "question": 17081,
-            "description": "I'm not afraid to say it y'know? I'm not! Listen, all I'm saying is that Lyndon Baines Johnson is the luckiest man to ever live in the Naval Observatory. Do you understand my point?"
+            "description": "Y'know, I did love Jack. We should put him in our advertising. Me and him shaking heads, meeting up. I don't think the family will mind."
         }
     }
 ]
@@ -8881,9 +8872,39 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 17469,
+        "pk": 17471,
         "fields": {
-            "answer": 17467,
+            "answer": 17466,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17475,
+        "fields": {
+            "answer": 17473,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.0011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17477,
+        "fields": {
+            "answer": 17431,
+            "candidate": 92,
+            "affected_candidate": 93,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17478,
+        "fields": {
+            "answer": 17370,
             "candidate": 92,
             "affected_candidate": 92,
             "global_multiplier": -0.036
@@ -8891,12 +8912,22 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 17471,
+        "pk": 17481,
         "fields": {
-            "answer": 17466,
+            "answer": 17367,
             "candidate": 92,
-            "affected_candidate": 91,
-            "global_multiplier": 0.016
+            "affected_candidate": 92,
+            "global_multiplier": -0.036
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17483,
+        "fields": {
+            "answer": 17368,
+            "candidate": 92,
+            "affected_candidate": 92,
+            "global_multiplier": -0.036
         }
     }
 ]
@@ -10760,6 +10791,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 33,
             "issue_score": -0.7,
             "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17476,
+        "fields": {
+            "answer": 17473,
+            "issue": 35,
+            "issue_score": 0.3,
+            "issue_importance": 4
         }
     }
 ]
@@ -14101,7 +14142,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 17431,
             "candidate": 92,
-            "answer_feedback": "Just two days later the Chinese announce they have a nuclear bomb, ramping up tensions in Southeast Asia even more. Your expertise in the region is welcomed by many Americans."
+            "answer_feedback": "Your emphasis on experience is emphasized by China's announcement that they have the nuclear bomb. As President, Johnson will always look good in containing this crisis, but the reasons to vote Wallace are slipping. "
         }
     },
     {
@@ -14133,20 +14174,47 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 17468,
-        "fields": {
-            "answer": 17467,
-            "candidate": 92,
-            "answer_feedback": "You stayed up too late last night watching that shlocky horror dreck, <i>Midnight: Blood and Politics</i>. Repeating its plot as truth shocks voters nationwide, who are disgusted you'd insinuate such a thing."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 17470,
         "fields": {
             "answer": 17466,
             "candidate": 92,
             "answer_feedback": "All Johnson ever does is talk about Kennedy, about continuing his legacy, upholding Camelot. Such bullshit. You would have had a Camelot of your own. But it wouldn't have had such a gay name."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17474,
+        "fields": {
+            "answer": 17473,
+            "candidate": 92,
+            "answer_feedback": "Trying to bask in Kennedy glory is an interesting move, one that might annoy the more doctrinal Republicans. But the family doesn't protest, and these ads run smoothly."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17479,
+        "fields": {
+            "answer": 17370,
+            "candidate": 92,
+            "answer_feedback": "Polls are spiraling downwards already. There may not be."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17480,
+        "fields": {
+            "answer": 17367,
+            "candidate": 92,
+            "answer_feedback": "A few reporters, skeptical of the sourcing, begin to look into this, but most Americans don't believe you, and are horrified that you could ever say something so awful."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17482,
+        "fields": {
+            "answer": 17368,
+            "candidate": 92,
+            "answer_feedback": "They have a man who can be placed in Texas on the day you were there who saw you say it. That's proof enough for Americans to be disgusted."
         }
     }
 ]
