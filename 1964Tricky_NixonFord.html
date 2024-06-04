@@ -277,15 +277,6 @@ campaignTrail_temp.questions_json = [
             "description": "With this final major October Surprise killing our campaign, we are limping into the polls on election day. What is the final message you want to spread to voters as they get ready to elect their next president?",
             "likelihood": 1
         }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 17080,
-        "fields": {
-            "priority": 0,
-            "description": "The trail is going fine, but a minor flareup is happening at home. Pat is tired of campaigning. She's sick of politics. She wants to stay home, in New York, for just a bit. We were hoping to have her hit the trail with you and make media appearances. Can you try to convince her otherwise?",
-            "likelihood": 1
-        }
     }
 ]
 
@@ -1799,7 +1790,7 @@ campaignTrail_temp.answers_json = [
         "pk": 17472,
         "fields": {
             "question": 17079,
-            "description": "Goddamnit, I am not a crook! I'm not! I am the Nixon you all know and love, I have not been changed by the wilderness. I am the friendly neighborhood Richard Nixon you can trust, and we need to remind voters of that."
+            "description": "Goddamnit, I am not a criminal! I'm not! I have not been changed by the wilderness. I am the friendly neighborhood Richard Nixon you can trust, and we need to remind voters of that."
         }
     },
     {
@@ -1808,6 +1799,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 17081,
             "description": "Y'know, I did love Jack. We should put him in our advertising. Me and him shaking heads, meeting up. I don't think the family will mind."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 17489,
+        "fields": {
+            "question": 17079,
+            "description": "There is a sickness in this country. Rioting in Harlem. Scandals in the White House. A disease has infected the heart of America, the disease of hatred, and self interest. The fish rots from the head down y'know. We just need to prove that to them."
         }
     }
 ]
@@ -8929,6 +8928,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 92,
             "global_multiplier": -0.036
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17485,
+        "fields": {
+            "answer": 17434,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.0065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17492,
+        "fields": {
+            "answer": 17472,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 17493,
+        "fields": {
+            "answer": 17489,
+            "candidate": 92,
+            "affected_candidate": 91,
+            "global_multiplier": 0.0065
+        }
     }
 ]
 
@@ -10800,6 +10829,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 17473,
             "issue": 35,
             "issue_score": 0.3,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17488,
+        "fields": {
+            "answer": 17434,
+            "issue": 33,
+            "issue_score": -0.6,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17491,
+        "fields": {
+            "answer": 17472,
+            "issue": 36,
+            "issue_score": -0.2,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17494,
+        "fields": {
+            "answer": 17489,
+            "issue": "32",
+            "issue_score": -0.1,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17495,
+        "fields": {
+            "answer": 17489,
+            "issue": 36,
+            "issue_score": -0.6,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 17496,
+        "fields": {
+            "answer": 17489,
+            "issue": 35,
+            "issue_score": -0.3,
             "issue_importance": 4
         }
     }
@@ -13565,7 +13644,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 17122,
         "fields": {
             "answer": 17114,
-            "candidate": 91,
+            "candidate": 92,
             "answer_feedback": "A somewhat bizarre tangent, and one that leaves both Civil Rights leaders and friends like Lodge scratching their heads. Many Northern whites, however, are happy to hear someone is listening to them, and they'll give your candidacy a second look."
         }
     },
@@ -14216,6 +14295,33 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 92,
             "answer_feedback": "They have a man who can be placed in Texas on the day you were there who saw you say it. That's proof enough for Americans to be disgusted."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17484,
+        "fields": {
+            "answer": 17434,
+            "candidate": 92,
+            "answer_feedback": "Anything you can do to pivot back to foreign policy, to a stronger America under President Nixon, is a good idea."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17486,
+        "fields": {
+            "answer": 17472,
+            "candidate": 92,
+            "answer_feedback": "There is a feeling in America that the Nixon they once only mildly distrusted has completely sold out. He is nothing more than a husk for corporate interests. That's not what will usher in a Great Society. That's not the America they voted for in 1960."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17490,
+        "fields": {
+            "answer": 17489,
+            "candidate": 92,
+            "answer_feedback": "A referendum on public morality is a tough sell from someone who was endorsed by a monk killer and who claimed the President was a murderer. But it's true that the assassination has changed things. Something feels off. The world is changing too fast for some people."
+        }
     }
 ]
 
@@ -14245,3 +14351,25 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
+//#startcode
+e=campaignTrail_temp // this is redundant, but Decstar uses this because it looks nicer in the code.
+
+campaignTrail_temp.cyoa = true
+
+ ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+
+if(ans == 2010) {
+  campaignTrail_temp.questions_json[18] = {
+        "model": "campaign_trail.question",
+        "pk": 17080,
+        "fields": {
+            "priority": 0,
+            "description": "The trail is going fine, but a minor flareup is happening at home. Pat is tired of campaigning. She's sick of politics. She wants to stay home, in New York, for just a bit. We were hoping to have her hit the trail with you and make media appearances. Can you try to convince her otherwise?",
+            "likelihood": 1
+        }
+    }
+}
+
+\\ Balancing notes include powering down the global buff u get from putting Khrushchev in ur ads.
+
+//#endcode
