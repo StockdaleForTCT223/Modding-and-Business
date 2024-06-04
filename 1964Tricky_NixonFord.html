@@ -8746,7 +8746,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 17135,
             "candidate": 92,
             "affected_candidate": 92,
-            "global_multiplier": -0.006
+            "global_multiplier": -0.003
         }
     },
     {
@@ -8756,7 +8756,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 17136,
             "candidate": 92,
             "affected_candidate": 92,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.0002
         }
     },
     {
@@ -10857,7 +10857,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 17494,
         "fields": {
             "answer": 17489,
-            "issue": "32",
+            "issue": 32,
             "issue_score": -0.1,
             "issue_importance": 3
         }
@@ -13572,7 +13572,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 17018,
         "fields": {
             "answer": 17017,
-            "candidate": 91,
+            "candidate": 92,
             "answer_feedback": "Wallace roars across the South, viciously opposing any attempt to keep prayer out of schools. Many of your supporters wish you'd do the same."
         }
     },
@@ -13617,7 +13617,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 17103,
         "fields": {
             "answer": 17024,
-            "candidate": 91,
+            "candidate": 92,
             "answer_feedback": "After our debacle at San Francisco, anything we can do to make logistical failures and deep-seated party divisions a bipartisan issue will be incredibly helpful."
         }
     },
@@ -13788,7 +13788,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 17192,
         "fields": {
             "answer": 17184,
-            "candidate": 91,
+            "candidate": 92,
             "answer_feedback": "<i><q>Richard Nixon was one of the best vice presidents in this nation's history. I have never felt more comfortable in my time in government than when he had his steady hand on the wheel, and I urge you to vote for him,</q></i> Ike lies."
         }
     },
@@ -14058,7 +14058,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 17349,
         "fields": {
             "answer": 17251,
-            "candidate": 91,
+            "candidate": 92,
             "answer_feedback": "There's little you can do to really add on here, and some voters find your attempt to capitalize on this a bit... mean. Classic Tricky Dick, is how it looks. Johnson, for his part, stays silent."
         }
     },
@@ -14330,27 +14330,6 @@ campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/U5v4DzE.png";
 campaignTrail_temp.candidate_last_name = "Nixon";
 campaignTrail_temp.running_mate_last_name = "Ford";
 
-
-
-campaignTrail_temp.jet_data = [{
-    "banner_enabled": true,
-    "banner_data": {
-        "canName": "Nixon",
-        "runName": "Ford",
-        "runImage": "https://i.imgur.com/U5v4DzE.png",
-        "canImage": "https://i.imgur.com/eYvONUx.png"
-    },
-    "nicknames": {
-        "91": "Johnson",
-        "92": "Nixon",
-        "93": "Wallace",
-        "94": "Hass and Others"
-    },
-    "cyoa_enabled": false,
-    "cyoa_data": {}
-}
-]
-
 //#startcode
 e=campaignTrail_temp // this is redundant, but Decstar uses this because it looks nicer in the code.
 
@@ -14373,7 +14352,25 @@ if(ans == 2010) {
 if((ans == 17404)){
   ctsAchievement("The Better Angels Of Our Nature");
   console.log("Do The Right Thing");
-
-\\ Balancing notes include powering down the global buff u get from putting Khrushchev in ur ads.
+  }
 
 //#endcode
+
+campaignTrail_temp.jet_data = [{
+    "banner_enabled": true,
+    "banner_data": {
+        "canName": "Nixon",
+        "runName": "Ford",
+        "runImage": "https://i.imgur.com/U5v4DzE.png",
+        "canImage": "https://i.imgur.com/eYvONUx.png"
+    },
+    "nicknames": {
+        "91": "Johnson",
+        "92": "Nixon",
+        "93": "Wallace",
+        "94": "Hass and Others"
+    },
+    "cyoa_enabled": false,
+    "cyoa_data": {}
+}
+]
