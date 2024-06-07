@@ -34,7 +34,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1007,
         "fields": {
             "priority": 0,
-            "description": "We are getting closer and closer to the RNC, and while our delegate collection efforts are bearing fruit, there is a specter looming over the party, the specter of Barry Goldwater. Moderates fear there is no stopping Goldwater, and so another summit has been called, where you, Lodge, Romney, Scranton, and Rockefeller are all meeting to discuss how best to stop him. What's your pitch?",
+            "description": "We are getting closer and closer to the RNC, and while our delegate collection efforts are bearing fruit, some moderates are still personally uncomfortable with your candidacy (bastards). A secret summit has been called to determine who can best <q>stop Barry</q> and you need to make your case to Lodge, Scranton, Romney, and Rockefeller. How can we get those asses to understand we're the best shot?",
             "likelihood": 1
         }
     },
@@ -5407,7 +5407,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 233,
-            "state_multiplier": 0.93
+            "state_multiplier": 1.08
         }
     },
     {
@@ -5425,7 +5425,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 235,
-            "state_multiplier": 0.99
+            "state_multiplier": 1.07
         }
     },
     {
@@ -5587,7 +5587,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 253,
-            "state_multiplier": 1.1578
+            "state_multiplier": 1.2143
         }
     },
     {
@@ -5650,7 +5650,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 260,
-            "state_multiplier": 1.34
+            "state_multiplier": 1.28
         }
     },
     {
@@ -5704,7 +5704,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 266,
-            "state_multiplier": 1.28
+            "state_multiplier": 1.21
         }
     },
     {
@@ -8538,7 +8538,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 17249,
             "candidate": 92,
             "affected_candidate": 93,
-            "global_multiplier": -0.082
+            "global_multiplier": -0.145
         }
     },
     {
@@ -8548,7 +8548,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 17250,
             "candidate": 92,
             "affected_candidate": 93,
-            "global_multiplier": -0.082
+            "global_multiplier": -0.145
         }
     },
     {
@@ -8558,7 +8558,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 17251,
             "candidate": 92,
             "affected_candidate": 93,
-            "global_multiplier": -0.082
+            "global_multiplier": -0.145
         }
     },
     {
@@ -8578,7 +8578,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 17345,
             "candidate": 92,
             "affected_candidate": 93,
-            "global_multiplier": -0.082
+            "global_multiplier": -0.145
         }
     },
     {
@@ -14521,8 +14521,6 @@ if((ans == 17404)){
 
 //#endcode
 
-
-
 campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
     "banner_data": {
@@ -14582,14 +14580,22 @@ if(campaignTrail_temp.player_answers.includes(17415) && campaignTrail_temp.playe
         }    
 return "<h3><q>WALLACE COUNTRY</q></h3><p>That damned silly fool from Alabama did it. He's fucked the whole process, made it just close enough that one of you, you and Lyndon, will have to deal with him. Whoever won the popular vote, realistically, will end up President. That's the fair way right? No way Lyndon would go back on that.</p><p>Still, this is a stinging personal failure. America didn't want you. Again. They wanted to do something stupid instead. A waste of everyone's time. And Humphrey will end up vice president too anyhow, so even if you win the White House you'll have that shitass biting at your heels. Pour a drink Mr. Nixon. This is going to be a long few ballots.</p>" 
 } else if(quickstats[0] < 270 && quickstats[0] > 199){
-return "<h3><q>BURN THIS MEMORANDUM</q></h3><p>Our final vote tally indicates that Nixon made the race significantly closer than expected. Seemingly the <q>Fuck Strategy</q></p><p>It could've been many things. Clinton himself was popular, and Gingrich probably weighed you down. Maybe your debate performance was the nail, perhaps Buchanan spoiling the vote. Maybe it was <q>Mediscare,</q>or the economy, or just the luck of facing an incumbent. But there’s a little part of you that thinks it's that term you saw in the papers&nbsp;--&nbsp;the <q>Bradley Effect.</q></p><p>- Bill Moyers</p>"
+return "<h3><q>REPORT ON THE IMPLICATIONS OF JOHNSON'S THINNED MANDATE</q></h3><p>Our final vote tally indicates that Nixon made the race significantly closer than expected. Seemingly <q>Operation Wildfire</q> failed to reduce public trust in Nixon and Wallace to a serious enough extent to sincerely reduce his vote tally. The reasons for this are frustrating to ascertain. Factors could include perceptions of distrust with all of Washington, a strong conservative tide, white backlash towards the Civil Rights Act of 1964 as predicted, or President Johnson's refusal to face Nixon face to face.</p><p>Whatever the reason, the President will receieve a second term, but not a clear mandate to enact the Great Society programs-his congressional coattails were not enough to gain seats as extensive as those gained in the 1962 midterms, and we can anticipate a difficult congressional struggle to pass the Voting Rights Act or to work on future fair housing legislation. Numerous rising stars from this cycle may pose challenges in 1968-Nixon's career is likely over, but Governor Romney or newly elected Governor Percy of Illinois are likely candidates, if not Senator Goldwater (hopefully an easier opponent). Future memorandums will cover expected political challenges each possible opponent could pose over the coming term.</p<p>BURN THIS MEMORANDUM- Bill Moyers</p>"
 } else if(quickstats[0] < 200 && quickstats[0] > 99){
-return "<h3><q>BURN THIS MEMORANDUM</q></h3><p>It was a hard battle, truly, but it was one you just weren’t ready to win. You’re the quintessential political general, but it seems you weren’t ready for the front lines, only the backrooms of the Pentagon. You weren’t completely beaten, Clinton’s victory has nothing on yours over Saddam. But it was still a pretty thorough whipping, made worse by the fact that it was by the man whose career everyone thought was dead in the water just a year ago.</p><p>The Republicans have retained control of the House and Senate, albeit a mildly diminished one. At least the gains of ‘94 have stayed, and Clinton will keep having to compromise with your party to get anything done. Still, the loss of a possible trifecta really, really stings. I suppose the nation wasn’t ready for a black president, as much as the early polls suggested it really might be time.</p><p>Still, this wasn’t a total wash. Your tour of America really helped you get in touch with the people, and you’re reminded of what makes this nation great. The fact that a black man ran for president and won way more states than any other ever had is historic enough. Keep your head up, General Powell. Your loss shall certainly pave the way for future victories.</p>"
+return "<h3><q>REPORT ON THE IMPLICATIONS OF JOHNSON'S  MANDATE</q></h3><p>President Johnson's final vote tally indicates a strong performance for the current President, likely ballooned by <q>Operation Wildfire</q> and the reduced credibility of Vice President Nixon. The implications of his victory are, as of yet, unclear. The President has earned a solid tally of the popular vote, though has been hampered by the strength of the backlash vote and Nixon's ability to unite the GOP. His congressional coattails were strong, matching those of 1962, meaning future hopes to pass the suite of <q>Great Society</q> Programs are not quite dashed, but certain bills, such as the Voting Rights Act, may face pushback from those representatives concerned about the <q>White Backlash Vote</q> which turned out in spades.</p><p>Likely what pushed the President into his victory was, more than anything, the credibility issue, rather than the strength of President Johnson's political program or liberal ideals. Nixon's repeated suffering with the public reduced public trust in him-the strategy of reducing him to a corporate puppet was effective. This bodes well for future attempts to attack political opponents-the same label could likely be applied to Governor Percy or Governor Romney were they to earn the nomination in 1968. Future memorandums will cover how we can best face these possible opponents over the coming years.</p><p>BURN THIS MEMORANDUM- Bill Moyers</p>"
 } else if(quickstats[0] < 100){
-return "<h3><q>BURN THIS MEMORANDUM</q></h3><p>You really thought you had it for a minute there. But Clinton was too popular, and Gingrich too hated, and Buchanan too angry, and it all fell apart. Just a few months ago you were looking like you were going to steamroll Clinton all the way to Little Rock. Now you’re calling him giving him a quick congratulations on his victory.</p><p>This was a really thorough curb-stomping of the Republican Party. The massive Revolution of ‘94 has been partially undone, as Democrats have a thin majority in the House now. You get the sense that Gingrich and Dole blame you for it. Inches away from Reagan’s dream of a Republican trifecta, and it all blew up in smoke. It almost makes you sick. You really thought you could have been the nation’s first black president. But I guess they just weren’t ready.</p><p>Still, try to keep your chin up, Colin. At Fort Carson in ‘81 they said you weren’t ready for command. You probably led those guys into Iraq. Hopefully Clinton can keep leading the national ship with honor, while you figure out what to do with retirement. Whatever you choose, godspeed General. It feels really bad, but try to remember that just getting here was impressive enough.</p>"
+return "<h3><q>REPORT ON THE IMPLICATIONS OF JOHNSON'S STAGGERING MANDATE</q></h3><p>Vote totals indicate that President Johnson has earned a stunning mandate at the polls this year, wtih strong congressional coattails. Apparently the white backlash effect was minimal, while <q>Operation Wildfire</q> programs served to reduce Vice President Nixon's credibility enough compared to Johnson to earn the President a stunning mandate.</p><p>Already all serious possible challengers for 1968, such as Governor Romney or Governor-Elect Percy, are voicing some level of support for the Great Society programs, and little resistance is expected among Northern congressmen towards the Voting Rights Act. With Richard Nixon's staggeringly poor performance, we can ascertain that the President has a massive mandate with which to work with, and an incredibly strong base to go bigger in 1968.</p><p>BURN THIS MEMORANDUM- Bill Moyers.</p>"
 } else if(aa[0].candidate == 79 && aa[0].electoral_votes > 269){
 return "<h3>Racism.</h3><p>Yeah. Wallace fucking won. Whatever I don't give a shit. Congrats on knowing the spacebar glitch ig.</p>"
 } else {
 return "<p>Oh shit it broke</p><p>Let Stockdale know what happened b/c this is a bug, and your ending crashed. I hope you had fun at least?</p>"
 }
 }
+
+    // END-OF-GAME ACHIEVEMENTS
+    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+    
+    if (campaignTrail_temp.player_answers.includes(17415) && campaignTrail_temp.player_answers.includes(17367) && campaignTrail_temp.player_answers.includes(17254) && campaignTrail_temp.player_answers.includes(17249) && quickstats[0] <= 269) { // Get the Secret Ending
+        ctsAchievement("Nutcutting");  
+    
+    }
