@@ -8556,7 +8556,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 17373,
             "candidate": 92,
             "affected_candidate": 92,
-            "global_multiplier": -0.032
+            "global_multiplier": -0.042
         }
     },
     {
@@ -10639,7 +10639,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 17373,
             "issue": 32,
             "issue_score": -0.5,
-            "issue_importance": 9
+            "issue_importance": 2
         }
     },
     {
@@ -14581,6 +14581,11 @@ if(ans == 2001){
         console.log("Make the Right proud.");                  
       }
 
+if(ans == 2003){
+        noSurrender += 1;
+        console.log("Make the Right proud.");                  
+      }
+
 if(ans == 17006){
         noSurrender += 1;
         console.log("Make the Right proud.");                  
@@ -14597,6 +14602,11 @@ if(ans == 2036){
       }
 
 if(ans == 2039){
+        noSurrender += 1;
+        console.log("Make the Right proud.");                  
+      }
+
+if(ans == 2078){
         noSurrender += 1;
         console.log("Make the Right proud.");                  
       }
@@ -14802,13 +14812,9 @@ if(ans == 17368){
         console.log("Never give up never what?");                  
       }
 
-}
 
-cyoAdventure = function(b) {
-    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-    if(noSurrender >= 7) {
-
-  campaignTrail_temp.questions_json[26] = {
+if(noSurrender >= 7) {
+campaignTrail_temp.questions_json[26] = {
         "model": "campaign_trail.question",
         "pk": 17562,
         "fields": {
@@ -14818,6 +14824,7 @@ cyoAdventure = function(b) {
                   }
             }
     }
+
 }
 
 const style_overwrite = document.createElement("style");
