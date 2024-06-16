@@ -14912,13 +14912,13 @@ endingPicker = (out, totv, aa, quickstats) => {
     //aa = all final overall results data
     //quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
 
-if(wildfire == 4 && quickstats[0] <= 269){
+if(quickstats[0] >= 0){
 if (used != true) {
     setInterval(function () {
         used = true;
         imgg = document.getElementsByClassName("person_image")[0];
         if (imgg != null) {
-            imgg.src = "https://i.imgur.com/DowVCoC.png";
+            imgg.src = "blob:https://imgur.com/33c7a87b-e6c3-4853-b2d5-efe4cea55055";
         }
     }, 100);
 }
@@ -14959,10 +14959,31 @@ if (used != true) {
         }    
 return "<h3><q>WALLACE COUNTRY</q></h3><p>That damned silly fool from Alabama did it. He's fucked the whole process, made it just close enough that one of you, you and Lyndon, will have to deal with him. Whoever won the popular vote, realistically, will end up President. That's the fair way right? No way Lyndon would go back on that.</p><p>Still, this is a stinging personal failure. America didn't want you. Again. They wanted to do something stupid instead. A waste of everyone's time. And Humphrey will end up vice president too anyhow, so even if you win the White House you'll have that shitass biting at your heels. Pour a drink Mr. Nixon. This is going to be a long few ballots.</p>" 
 } else if(quickstats[0] < 270 && quickstats[0] > 199){
+        setInterval(function () {
+        used = true;
+        imgg = document.getElementsByClassName("person_image")[0];
+        if (imgg != null) {
+            imgg.src = "https://i.imgur.com/ouChHgv.png";
+        }
+    }, 100);
 return "<h3><q>REPORT ON THE IMPLICATIONS OF JOHNSON'S THINNED MANDATE</q></h3><p>Our final vote tally indicates that Nixon made the race significantly closer than expected. Seemingly <q>Operation Wildfire</q> failed to reduce public trust in Nixon and Wallace to a serious enough extent to sincerely reduce his vote tally. The reasons for this are frustrating to ascertain. Factors could include perceptions of distrust with all of Washington, a strong conservative tide, white backlash towards the Civil Rights Act of 1964 as predicted, or President Johnson's refusal to face Nixon face to face.</p><p>Whatever the reason, the President will receieve a second term, but not a clear mandate to enact the Great Society programs-his congressional coattails were not enough to gain seats as extensive as those gained in the 1962 midterms, and we can anticipate a difficult congressional struggle to pass the Voting Rights Act or to work on future fair housing legislation. Numerous rising stars from this cycle may pose challenges in 1968-Nixon's career is likely over, but Governor Romney or newly elected Governor Percy of Illinois are likely candidates, if not Senator Goldwater (hopefully an easier opponent). Future memorandums will cover expected political challenges each possible opponent could pose over the coming term.</p><p>BURN THIS MEMORANDUM- Bill Moyers</p>"
 } else if(quickstats[0] < 200 && quickstats[0] > 99){
+        setInterval(function () {
+        used = true;
+        imgg = document.getElementsByClassName("person_image")[0];
+        if (imgg != null) {
+            imgg.src = "https://i.imgur.com/ouChHgv.png";
+        }
+    }, 100);
 return "<h3><q>REPORT ON THE IMPLICATIONS OF JOHNSON'S  MANDATE</q></h3><p>President Johnson's final vote tally indicates a strong performance for the current President, likely ballooned by <q>Operation Wildfire</q> and the reduced credibility of Vice President Nixon. The implications of his victory are, as of yet, unclear. The President has earned a solid tally of the popular vote, though has been hampered by the strength of the backlash vote and Nixon's ability to unite the GOP. His congressional coattails were strong, matching those of 1962, meaning future hopes to pass the suite of <q>Great Society</q> Programs are not quite dashed, but certain bills, such as the Voting Rights Act, may face pushback from those representatives concerned about the <q>White Backlash Vote</q> which turned out in spades.</p><p>Likely what pushed the President into his victory was, more than anything, the credibility issue, rather than the strength of President Johnson's political program or liberal ideals. Nixon's repeated suffering with the public reduced public trust in him-the strategy of reducing him to a corporate puppet was effective. This bodes well for future attempts to attack political opponents-the same label could likely be applied to Governor Percy or Governor Romney were they to earn the nomination in 1968. Future memorandums will cover how we can best face these possible opponents over the coming years.</p><p>BURN THIS MEMORANDUM- Bill Moyers</p>"
 } else if(quickstats[0] < 100){
+        setInterval(function () {
+        used = true;
+        imgg = document.getElementsByClassName("person_image")[0];
+        if (imgg != null) {
+            imgg.src = "https://i.imgur.com/ouChHgv.png";
+        }
+    }, 100);
 return "<h3><q>REPORT ON THE IMPLICATIONS OF JOHNSON'S STAGGERING MANDATE</q></h3><p>Vote totals indicate that President Johnson has earned a stunning mandate at the polls this year, wtih strong congressional coattails. Apparently the white backlash effect was minimal, while <q>Operation Wildfire</q> programs served to reduce Vice President Nixon's credibility enough compared to Johnson to earn the President a stunning mandate.</p><p>Already all serious possible challengers for 1968, such as Governor Romney or Governor-Elect Percy, are voicing some level of support for the Great Society programs, and little resistance is expected among Northern congressmen towards the Voting Rights Act. With Richard Nixon's staggeringly poor performance, we can ascertain that the President has a massive mandate with which to work with, and an incredibly strong base to go bigger in 1968.</p><p>BURN THIS MEMORANDUM- Bill Moyers.</p>"
 } else if(aa[0].candidate == 79 && aa[0].electoral_votes > 269){
 return "<h3>Racism.</h3><p>Yeah. Wallace fucking won. Whatever I don't give a shit. Congrats on knowing the spacebar glitch ig.</p>"
